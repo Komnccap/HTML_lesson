@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.header {
+    display: flex;
+    gap: 500px;
+    .header_logos {
+        max-width: 137px;
+        max-height: 40px;
+        gap: 14px;
+        padding-top: 40px;
+        padding-left: 375px;
+    }
+    .links {
+        padding-top: 51px;
+    }
+}
+.top_content {
+    padding-left: 373px;
+    display: flex;
+    gap: 40.94px;
+    .content_title {
+        padding-top: 146px;
+        max-width: 522px;
+        max-height: 222px;
+        color: #000;
+        font-family: Gilroy-Bold;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .content_txt {
+        margin-top: 17px;
+        max-width: 466px;
+        max-height: 48px;
+        color: #888;
+        font-family: Gilroy-Medium;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .content_actions{
+        padding-left: 2px;
+        padding-top: 37px;
+        max-width: 302px;
+        max-height: 50px;
+        gap: 72px;
+        display: flex;
+        .content_button {
+            .button {
+                width: 140px;
+                height: 50px;
+                flex-shrink: 0;
+                border-radius: 50px;
+                background: #F25822;
+                box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+                color: #FFF;
+                font-family: Gilroy-Bold;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+        .content_link {
+            .link {
+                max-width: 90px;
+                max-height: 19px;
+                color: #AAA;
+                font-family: Gilroy-Bold;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+    }
+    .content_img {
+        max-width: 544.814px;
+        max-height: 374.843px;
+        padding-top: 162.71px;
+    }
+}
+.top_logos {
+    padding-top: 162px;
+    justify-content: center;
+    display: flex;
+    gap: 48px;
+    padding-left: 345px;
+    max-width: 1200px;
+    max-height: 50px;
+}
